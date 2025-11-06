@@ -1,0 +1,34 @@
+*{box-sizing:border-box}
+
+html,body{height:100%}
+
+body{
+    margin:0;
+    background: linear-gradient(180deg, var(--bg-dark), #061028 120%);
+    color:var(--bg-dark);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    line-height:1.4;
+}
+
+/* =========================
+   Layout
+========================= */
+main {
+    padding: 10px 120px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+
+section { margin-top: 36px; }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 18px;
+}

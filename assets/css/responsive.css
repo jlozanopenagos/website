@@ -1,0 +1,15 @@
+@media (max-width: 760px){
+    .grid{ grid-template-columns:1fr; }
+    h1{ font-size:1.6rem; }
+    .hero{ flex-direction:column-reverse; }
+}
+
+@media (max-width: 760px){
+    .container { padding: 0 16px; }
+}
+
+@media (min-width: 1400px) {
+    .hero {
+        padding: 0 120px;
+    }
+}
